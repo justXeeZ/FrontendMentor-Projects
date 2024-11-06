@@ -4,6 +4,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+### [Live Project Preview On Vercel](https://qrcodecomponent-umber.vercel.app/)
+
 ### Screenshots
 
 <img src="design\desktop.png" width="600px"/>
