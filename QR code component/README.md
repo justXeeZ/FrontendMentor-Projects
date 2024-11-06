@@ -6,13 +6,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots
 
-_Desktop design_
-
-![](design\desktop.png)
-
-_Mobile design_
-
-![](design\mobile.png)
+<img src="design\desktop.png" />
+<p><i>Desktop Preview</i></p>
+<img src="design\mobile.png" />
+<p><i>Mobile Preview</i></p>
 
 ## Author
 
