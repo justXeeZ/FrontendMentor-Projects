@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  width: 100%;
+}
+
+.profile-container {
+  width: 400px;
+  max-width: 95%;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 3em;
+  margin: 0 auto 1em auto;
+  border-radius: 1rem;
+}
+
+.avatar {
+  width: 30%;
+  min-width: 6rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1em 0 0.3em 0;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.description {
+  margin: 3em 0 2em 0;
+  font-weight: 400;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 0.8em 0;
+  margin: 1em 0 0 0;
+  border-radius: 0.5rem;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
