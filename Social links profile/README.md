@@ -4,7 +4,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://blogpreviewcard-eight.vercel.app/)
+### [Live Project Preview On Vercel](https://sociallinksprofile-five.vercel.app/)
 
 ### Screenshots
 
