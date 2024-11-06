@@ -62,10 +62,6 @@ body {
 /* Media Queries */
 
 @media (max-width: 375px) {
-  body {
-    overflow: auto;
-  }
-
   .qr-container {
     width: 90%;
   }
