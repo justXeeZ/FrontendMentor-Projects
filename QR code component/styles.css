@@ -35,7 +35,7 @@ body {
 }
 
 .qr-title {
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   padding: 0 1em;
@@ -68,9 +68,5 @@ body {
 
   .qr-container {
     width: 90%;
-  }
-
-  .qr-title {
-    font-size: 1.4rem;
   }
 }
