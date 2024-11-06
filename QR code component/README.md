@@ -6,9 +6,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots
 
-<img src="design\desktop.png" />
+<img src="design\desktop.png" width="600px"/>
 <p><i>Desktop Preview</i></p>
-<img src="design\mobile.png" />
+<img src="design\mobile.png" width="300px"/>
 <p><i>Mobile Preview</i></p>
 
 ## Author
