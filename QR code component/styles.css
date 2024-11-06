@@ -20,7 +20,7 @@ body {
 /* QR Code Tile */
 
 .qr-container {
-  width: 350px;
+  width: 320px;
   margin: auto;
   padding: 1em 1em 2em 1em;
   background-color: hsl(0, 0%, 100%);
@@ -35,7 +35,7 @@ body {
 }
 
 .qr-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   padding: 0 1em;
@@ -68,9 +68,5 @@ body {
 
   .qr-container {
     width: 90%;
-  }
-
-  .qr-title {
-    font-size: 1.4rem;
   }
 }
