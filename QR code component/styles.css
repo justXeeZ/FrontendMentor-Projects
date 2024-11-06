@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden; /* Stops scrolling */
 }
 
 /* QR Code Tile */
@@ -61,6 +62,10 @@ body {
 /* Media Queries */
 
 @media (max-width: 375px) {
+  body {
+    overflow: auto;
+  }
+
   .qr-container {
     width: 90%;
   }
