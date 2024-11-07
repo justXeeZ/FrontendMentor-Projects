@@ -4,10 +4,10 @@
 
 ## Projects
 
-- [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-- [Blog preview card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
-- [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
-- [Recipe page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+- [QR code component](https://github.com/justXeeZ/FEMGettingStarted-Projects/tree/main/QR%20code%20component)
+- [Blog preview card](https://github.com/justXeeZ/FEMGettingStarted-Projects/tree/main/Blog%20preview%20card)
+- [Social links profile](https://github.com/justXeeZ/FEMGettingStarted-Projects/tree/main/Social%20links%20profile)
+- [Recipe page](https://github.com/justXeeZ/FEMGettingStarted-Projects/tree/main/Recipe%20page)
 
 ### Project Folders Contains:
 

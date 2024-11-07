@@ -4,7 +4,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://sociallinksprofile-five.vercel.app/)
+### [Live Project Preview On Vercel](https://recipepage-psi.vercel.app/)
 
 ### Screenshots
 
