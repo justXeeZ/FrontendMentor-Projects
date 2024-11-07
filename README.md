@@ -17,11 +17,6 @@
 - `index.html`
 - `styles.css`
 
-## Notes
-
-- _This is not official Frontend Mentor_
-- _This repository is not finished yet_
-
 ## Author
 
 Made by XeeZ
