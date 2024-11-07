@@ -139,6 +139,11 @@ tr:not(:last-child) {
     border-radius: 0;
   }
 
+  li {
+    margin: 0.8em auto;
+    padding-left: 1em;
+  }
+
   .attribution {
     margin-bottom: 0;
   }
