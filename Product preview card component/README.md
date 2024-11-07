@@ -4,7 +4,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-### [Live Project Preview On Vercel](productpreviewcardcomponent-alpha.vercel.app)
+### [Live Project Preview On Vercel](https://productpreviewcardcomponent-alpha.vercel.app/)
 
 ### Screenshots
 
