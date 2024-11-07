@@ -15,6 +15,7 @@ _please star this repo if you like it :3_
 - [Blog preview card](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Blog%20preview%20card)
 - [Social links profile](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Social%20links%20profile)
 - [Recipe page](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Recipe%20page)
+- [Product preview card component](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Product%20preview%20card%20component)
 
 _these are links to solution projects on my github_
 
