@@ -17,6 +17,7 @@ _please star this repo if you like it :3_
 - [Recipe page](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Recipe%20page)
 - [Product preview card component](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Product%20preview%20card%20component)
 - [Four card feature section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Four%20card%20feature%20section)
+- [Testimonials grid section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/testimonials%20grid%20section)
 
 _these are links to solution projects on my github_
 
