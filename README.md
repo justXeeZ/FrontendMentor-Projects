@@ -1,13 +1,14 @@
-# XeeZ's ![Frontend Mentor](https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&w=256&q=75) Solution Projects
+# XeeZ's <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/304702060_474844821306824_3479081658794433305_n.png?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3pIuZ_ka6rUQ7kNvgH0haHK&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=AC35b5biwKP1hmHM0ajNqAG&oh=00_AYAbMAjK-YQBFf0CiNW8ih27eNYWOlZAs_37NBhdt-cTqA&oe=67416EEC" width="40" style="border-radius: 50%"> Solution Projects
 
 This Repository contains my projects from [Frontend Mentor](https://www.frontendmentor.io/profile/justXeeZ) and their live preview on my [Vercel](https://vercel.com/xeez).
 
-_please star this repo if you like it :3_
+_please star this repo if it helped you :3_
 
 ## Learning Paths Started
 
 - [Getting started on Frontend Mentor](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd) <s>_completed_</s>
-- [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD) _in progress_
+- [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD) <s>_completed_</s>
+- [JavaScript fundamentals](https://www.frontendmentor.io/learning-paths/javascript-fundamentals-oR7g6-mTZ-) _in progress_
 
 ## Completed Projects
 
