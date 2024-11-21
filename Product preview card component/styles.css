@@ -1,169 +1,170 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 body {
-  background-color: hsl(30, 38%, 92%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: "Montserrat";
-  margin: 0;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Montserrat";
+    margin: 0;
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(0, 0%, 100%);
-  width: 95%;
-  max-width: 650px;
-  border-radius: 1rem;
-  padding: 0;
-  overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 95%;
+    max-width: 650px;
+    border-radius: 1rem;
+    padding: 0;
+    overflow: hidden;
 }
 
 .overlay {
-  width: 50%;
-  height: 100%;
+    width: 50%;
+    height: 100%;
 }
 
 .product-img-desktop {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .product-img-mobile {
-  display: none;
+    display: none;
 }
 
 .text-wrapper {
-  width: 50%;
-  padding: 2.5em;
+    width: 50%;
+    padding: 2.5em;
 }
 
 .product-name,
 .product-price-discount {
-  font-family: "Fraunces";
-  font-weight: 700;
+    font-family: "Fraunces";
+    font-weight: 700;
 }
 
 .product-type {
-  color: hsl(228, 12%, 48%);
-  font-weight: 500;
-  letter-spacing: 0.4em;
-  margin: 0;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    margin: 0;
 }
 
 .product-name {
-  font-size: 2.6rem;
-  color: hsl(212, 21%, 14%);
-  line-height: 1em;
+    font-size: 2.6rem;
+    color: hsl(212, 21%, 14%);
+    line-height: 1em;
 }
 
 .product-description {
-  font-size: 1.1rem;
-  color: hsl(228, 12%, 48%);
-  font-weight: 500;
-  line-height: 1.5em;
+    font-size: 1.1rem;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 1.5em;
 }
 
 .product-price-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .product-price {
-  color: hsl(228, 12%, 48%);
-  font-weight: 500;
-  margin: 0 1em;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    margin: 0 1em;
 }
 
 .product-price-discount {
-  color: hsl(158, 36%, 37%);
-  font-size: 2.5rem;
-  margin: 1rem 0;
+    color: hsl(158, 36%, 37%);
+    font-size: 2.5rem;
+    margin: 1rem 0;
 }
 
 .product-buy {
-  display: block;
-  background-color: hsl(158, 36%, 37%);
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  font-size: 1.1rem;
-  width: 100%;
-  padding: 1em;
-  margin: 1em 0 0 0;
-  border: none;
-  border-radius: 0.5rem;
-  font-family: "Montserrat";
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0 0 0;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Montserrat";
 }
 
 .product-buy:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .product-buy:active {
-  background-color: hsl(158, 35%, 30%);
-  cursor: pointer;
+    background-color: hsl(158, 35%, 30%);
+    cursor: pointer;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  margin: 1em 0;
+    font-size: 11px;
+    text-align: center;
+    margin: 1em 0;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
 
 @media only screen and (max-width: 649px) {
-  body {
-    overflow: auto;
-  }
+    body {
+        overflow: auto;
+    }
 
-  main {
-    flex-direction: column;
-    margin-top: 0.5em;
-  }
+    main {
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
 
-  .overlay {
-    width: 100%;
-    max-height: 400px;
-  }
+    .overlay {
+        width: 100%;
+        max-height: 400px;
+    }
 
-  .product-img-desktop {
-    display: none;
-  }
+    .product-img-desktop {
+        display: none;
+    }
 
-  .product-img-mobile {
-    display: inline;
-    width: 100%;
-    height: 100%;
-  }
+    .product-img-mobile {
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
 
-  .text-wrapper {
-    width: 100%;
-    padding: 1.5em;
-  }
+    .text-wrapper {
+        width: 100%;
+        padding: 1.5em;
+    }
 
-  .product-name {
-    font-size: 2.1rem;
-  }
+    .product-name {
+        font-size: 2.1rem;
+    }
 
-  .product-price-discount {
-    font-size: 2rem;
-  }
+    .product-price-discount {
+        font-size: 2rem;
+    }
 
-  .product-buy {
-    margin-bottom: 0.5em;
-  }
+    .product-buy {
+        margin-bottom: 0.5em;
+    }
 }

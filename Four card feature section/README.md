@@ -4,7 +4,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://fourcardfeaturesection-omega.vercel.app/)
+### [Live Project Preview On Vercel](https://xeezfem-fourcardfeaturesection.vercel.app/)
 
 ### Screenshots
 

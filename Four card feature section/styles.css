@@ -1,153 +1,156 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-  font-family: "Poppins";
-  background-color: hsl(0, 0%, 98%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
-  margin: 0;
+    font-family: "Poppins";
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 0;
 }
 
 main {
-  width: 100%;
-  margin: auto;
+    width: 100%;
+    margin: auto;
 }
 
 .welcome {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
-  color: hsl(234, 12%, 34%);
-  font-weight: 600;
-  font-size: 2.5rem;
-  margin: 0 0 0.5em 0;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0 0 0.5em 0;
 }
 
 h2 {
-  color: hsl(234, 12%, 34%);
-  font-weight: 200;
-  font-size: 2.5rem;
-  margin: 0;
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin: 0;
 }
 
 .welcome > p {
-  color: hsl(229, 6%, 66%);
-  font-weight: 400;
-  margin: 0 0 3em 0;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    margin: 0 0 3em 0;
 }
 
 .card-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 2em;
-  width: 90%;
-  max-width: 1115px;
-  margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    width: 90%;
+    max-width: 1115px;
+    margin: auto;
 }
 
 .card {
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0 5px 10px hsl(229, 6%, 66%);
-  padding: 2em;
-  width: 100%;
-  max-width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px hsl(229, 6%, 66%);
+    padding: 2em;
+    width: 100%;
+    max-width: 350px;
 }
 
 .card.first {
-  grid-column: 1/2;
-  grid-row: 2/4;
-  border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border-top: 5px solid hsl(180, 62%, 55%);
 }
 
 .card.second {
-  grid-column: 2/3;
-  grid-row: 1/3;
-  border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-top: 5px solid hsl(0, 78%, 62%);
 }
 
 .card.third {
-  grid-column: 2/3;
-  grid-row: 3/5;
-  border-top: 5px solid hsl(34, 97%, 64%);
+    grid-column: 2/3;
+    grid-row: 3/5;
+    border-top: 5px solid hsl(34, 97%, 64%);
 }
 
 .card.forth {
-  grid-column: 3/4;
-  grid-row: 2/4;
-  border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    border-top: 5px solid hsl(212, 86%, 64%);
 }
 
 .card-title {
-  color: hsl(234, 12%, 34%);
-  font-weight: 600;
-  font-size: 1.3rem;
-  margin: 0;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 .card-description {
-  color: hsl(229, 6%, 66%);
-  font-weight: 400;
-  font-size: 0.9rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 0.9rem;
 }
 
 .card-icon {
-  display: block;
-  float: right;
-  margin-top: 1em;
+    display: block;
+    float: right;
+    margin-top: 1em;
 }
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  margin-top: 1em;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1em;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 780px) {
-  body {
-    padding: 4rem 0;
-  }
+    body {
+        padding: 4rem 0;
+    }
 
-  .card-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 500px) {
-  h1 {
-    font-size: 1.7rem;
-  }
-  h2 {
-    font-size: 1.7rem;
-  }
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
 }

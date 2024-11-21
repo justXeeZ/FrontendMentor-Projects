@@ -4,7 +4,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://blogpreviewcard-eight.vercel.app/)
+### [Live Project Preview On Vercel](https://xeezfem-blogpreviewcard.vercel.app/)
 
 ### Screenshots
 

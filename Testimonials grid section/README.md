@@ -4,7 +4,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://testimonialsgridsection.vercel.app/)
+### [Live Project Preview On Vercel](https://xeezfem-testimonialsgridsection.vercel.app/)
 
 ### Screenshots
 

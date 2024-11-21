@@ -1,65 +1,66 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-  font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden; /* Stops scrolling */
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Stops scrolling */
 }
 
 main {
-  width: 100%;
+    width: 100%;
 }
 
 /* QR Code Tile */
 
 .qr-container {
-  width: 320px;
-  max-width: 95%;
-  margin: auto;
-  padding: 1em 1em 2em 1em;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 1rem;
-  text-align: center;
-  box-shadow: 2px 2px 5px hsl(220, 15%, 55%);
+    width: 320px;
+    max-width: 95%;
+    margin: auto;
+    padding: 1em 1em 2em 1em;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px hsl(220, 15%, 55%);
 }
 
 .qr-image {
-  width: 100%;
-  border-radius: 1rem;
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .qr-title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: hsl(218, 44%, 22%);
-  padding: 0 1em;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 0 1em;
 }
 
 .qr-description {
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: hsl(220, 15%, 55%);
-  padding: 0 1em;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 0 1em;
 }
 
 /* Attribution */
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  margin: 1em 0;
+    font-size: 11px;
+    text-align: center;
+    margin: 1em 0;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
