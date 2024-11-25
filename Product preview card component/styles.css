@@ -30,8 +30,8 @@ main {
 }
 
 .overlay {
-    width: 50%;
     height: 100%;
+    width: 50%;
 }
 
 .product-img-desktop {
@@ -137,8 +137,6 @@ main {
 
     .overlay {
         width: 100%;
-        max-height: 400px;
-        overflow: hidden;
     }
 
     .product-img-desktop {
