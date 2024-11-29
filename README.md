@@ -1,4 +1,4 @@
-# XeeZ's <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/304702060_474844821306824_3479081658794433305_n.png?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3pIuZ_ka6rUQ7kNvgH0haHK&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=AC35b5biwKP1hmHM0ajNqAG&oh=00_AYAbMAjK-YQBFf0CiNW8ih27eNYWOlZAs_37NBhdt-cTqA&oe=67416EEC" width="40" style="border-radius: 50%"> Solution Projects
+# XeeZ's <img src="https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/304702060_474844821306824_3479081658794433305_n.png?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3pIuZ_ka6rUQ7kNvgH0haHK&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=AC35b5biwKP1hmHM0ajNqAG&oh=00_AYAbMAjK-YQBFf0CiNW8ih27eNYWOlZAs_37NBhdt-cTqA&oe=67416EEC" alt="Frontend Mentor" width="40" style="border-radius: 50%"> Solution Projects
 
 This Repository contains my projects from [Frontend Mentor](https://www.frontendmentor.io/profile/justXeeZ) and their live preview on my [Vercel](https://vercel.com/xeez).
 
@@ -19,6 +19,7 @@ _please star this repo if it helped you :3_
 - [Product preview card component](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Product%20preview%20card%20component)
 - [Four card feature section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Four%20card%20feature%20section)
 - [Testimonials grid section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Testimonials%20grid%20section)
+- [Article preview component](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Article%20preview%20component)
 
 _these are links to solution projects on my github_
 
