@@ -29,6 +29,7 @@ _these are links to solution projects on my github_
 - `README.md` for project description
 - `index.html`
 - `styles.css`
+- `script.js`
 
 ## Author
 
