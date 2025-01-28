@@ -1,0 +1,226 @@
+:root {
+	--Dark-Slate-Grey: hsl(234, 29%, 20%);
+	--Charcoal-Grey: hsl(235, 18%, 26%);
+	--Grey: hsl(231, 7%, 60%);
+	--White: hsl(0, 0%, 100%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	color: var(--Dark-Slate-Grey);
+	background-color: var(--Charcoal-Grey);
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	max-width: 900px;
+	padding: 1em;
+	margin: 1em auto;
+	border-radius: 1rem;
+	background-color: var(--White);
+}
+
+.card-content {
+	padding: 0 3.5em 0 2.5em;
+}
+
+.card-header {
+	font-size: 3.25rem;
+	font-weight: 700;
+	margin: 0.4em 0;
+}
+
+.card-description {
+	max-width: 400px;
+}
+
+.card-advantages {
+	padding-left: 0;
+	margin-bottom: 2em;
+}
+
+.advantages-item {
+	margin: 1em 0 0 2em;
+	list-style: none;
+	position: relative;
+}
+
+.advantages-item:before {
+	content: url(assets/icon-list.svg);
+	position: absolute;
+	left: -2em;
+	vertical-align: -15%;
+}
+
+.signup-label {
+	display: block;
+	font-size: 0.8rem;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+
+.signup-input {
+	width: 100%;
+	font-size: 1rem;
+	font-family: "Roboto", sans-serif;
+	padding: 1em 1.5em;
+	margin-bottom: 1.5em;
+	border-radius: 0.5em;
+	border: 1px solid var(--Grey);
+	background-color: var(--White);
+}
+
+.signup-input:focus {
+	outline: 2px solid var(--Dark-Slate-Grey);
+}
+
+.signup-button,
+.message-button {
+	width: 100%;
+	font-size: 0.9rem;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+	padding: 1.4em 0;
+	border-radius: 0.5em;
+	border: none;
+	color: var(--White);
+	background: linear-gradient(120deg, var(--Dark-Slate-Grey), var(--Dark-Slate-Grey));
+	box-shadow: 0 5px 15px 0 hsla(347, 93%, 65%, 0.1);
+	position: relative;
+	transition: all 0.2s ease-in-out;
+}
+
+.signup-button::before,
+.message-button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5em;
+	background: linear-gradient(120deg, hsl(347, 93%, 65%), hsl(14, 100%, 61%));
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.signup-button:hover::before,
+.message-button:hover::before {
+	cursor: pointer;
+	opacity: 1;
+	box-shadow: 0 5px 15px 0 hsla(347, 93%, 65%, 0.8);
+}
+
+.signup-button:active,
+.message-button:active {
+	cursor: pointer;
+}
+
+.signup-button span,
+.message-button span {
+	position: relative;
+	cursor: pointer;
+}
+
+.mobile-banner {
+	display: none;
+}
+
+.success-message {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 95%;
+	max-width: 490px;
+	padding: 3rem;
+	margin: 1em auto;
+	border-radius: 1rem;
+	background-color: var(--White);
+}
+
+.message-header {
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin: 0.5em 0 0.1em 0;
+}
+
+.message-description {
+	line-height: 1.5em;
+	margin-bottom: 2.5em;
+}
+
+.bold-font {
+	font-weight: 700;
+}
+
+.attribution {
+	color: white;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 57%, 60%);
+}
+
+@media screen and (max-width: 800px) {
+	.card {
+		flex-direction: column;
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.card-content {
+		padding: 2em 2em 3em 2em;
+	}
+
+	.card-header {
+		font-size: 2.6rem;
+	}
+
+	.mobile-banner {
+		display: block;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.desktop-banner {
+		display: none;
+	}
+
+	.success-message {
+		width: 100%;
+		height: 100vh;
+		max-width: 500px;
+		margin: auto;
+		padding: 2em;
+		border-radius: 0;
+	}
+
+	.message-header {
+		font-size: 2.5rem;
+	}
+
+	.message-description {
+		margin-bottom: auto;
+	}
+}
