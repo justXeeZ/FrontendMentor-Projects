@@ -20,6 +20,7 @@ _please star this repo if it helped you :3_
 - [Four card feature section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Four%20card%20feature%20section)
 - [Testimonials grid section](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Testimonials%20grid%20section)
 - [Article preview component](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Article%20preview%20component)
+- [Newsletter Sign Up With Success Message](https://github.com/justXeeZ/FrontendMentor-Projects/tree/main/Newsletter%20Sign%20Up%20With%20Success%20Message)
 
 _these are links to solution projects on my github_
 
