@@ -14,6 +14,11 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	margin: 0;
@@ -28,11 +33,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 95%;
-	max-width: 900px;
+	max-width: 930px;
 	padding: 1em;
 	margin: 1em auto;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	background-color: var(--White);
+}
+
+.desktop-banner{
+	border-radius: 1.5rem;
 }
 
 .card-content {
@@ -40,13 +49,14 @@ body {
 }
 
 .card-header {
-	font-size: 3.25rem;
+	font-size: 3.4rem;
 	font-weight: 700;
 	margin: 0.4em 0;
 }
 
 .card-description {
 	max-width: 400px;
+	margin-bottom: 1.5em;
 }
 
 .card-advantages {
@@ -150,7 +160,7 @@ body {
 	max-width: 490px;
 	padding: 3rem;
 	margin: 1em auto;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	background-color: var(--White);
 }
 
@@ -183,6 +193,7 @@ body {
 	.card {
 		flex-direction: column;
 		width: 100%;
+		height: auto;
 		max-width: 500px;
 		margin: auto;
 		padding: 0;
