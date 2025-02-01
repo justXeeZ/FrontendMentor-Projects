@@ -4,7 +4,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## Overview
 
-### [Live Project Preview On Vercel](https://xeezfem-newslettersign-upformwithsuccessmessage.vercel.app/)
+### [Live Project Preview On Vercel](https://xeezfem-newslettersignupwithsuccessmessage.vercel.app/)
 
 ### Screenshots
 
